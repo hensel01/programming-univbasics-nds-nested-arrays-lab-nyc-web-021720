@@ -26,7 +26,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  [[""]]
+  [["e0", "g0", "o0", "p0", "w0"], ["a1", "aa1", "g1", "p1", "s1"]]
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
