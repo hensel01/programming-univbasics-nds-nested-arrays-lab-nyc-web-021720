@@ -36,7 +36,8 @@ def matrix_lookup(matrix, row, column)
  [["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"], ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
-  return matrix_lookup[1][1][2]
+ matrix_lookup[1][1][2]
+ return matrix_lookup
 end
 
 def matrix_update(matrix, row, column, new_value)
