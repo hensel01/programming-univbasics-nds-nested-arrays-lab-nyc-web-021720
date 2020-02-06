@@ -33,7 +33,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-matrix_lookup(sorted_matrix, 0, 1,)
+matrix_lookup(sorted_matrix, 0, 2,)
 end
 
 def matrix_update(matrix, row, column, new_value)
